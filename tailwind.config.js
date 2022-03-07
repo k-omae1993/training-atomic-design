@@ -20,6 +20,7 @@ module.exports = {
         700: '#7F8B93',
         800: '#606E79',
       },
+      white: '#ffffff',
     },
     fontSize: {
       xs: '0.75rem',
