@@ -1,26 +1,41 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    textShadow: {
+      title: '3px 3px 0 #A58609',
+    },
     colors: {
-      green: {
-        50: '#F2FCF1',
-        100: '#D6F6D3',
-        200: '#B6EFB1',
-        500: '#1FCF0F',
-        600: '#0FB900',
-        700: '#0D9F00',
-        800: '#0B7e00',
+      yellow: {
+        50: '#FEFAE7',
+        100: '#FCEEB3',
+        200: '#FAE077',
+        300: '#F7D030',
+        400: '#EBBF0D',
+        500: '#D7AF0C',
+        600: '#C09C0B',
+        700: '#A58609',
+        800: '#826A07',
+        900: '#4C3E04',
       },
       gray: {
-        50: '#F9F9FA',
-        100: '#ECEEEF',
-        200: '#DEE1E3',
-        500: '#ADB4B9',
-        600: '#98A1A8',
-        700: '#7F8B93',
-        800: '#606E79',
+        50: '#F9F9F9',
+        100: '#EDEDED',
+        200: '#E1E1E1',
+        300: '#D3D3D3',
+        400: '#C4C4C4',
+        500: '#B3B3B3',
+        600: '#A0A0A0',
+        700: '#898989',
+        800: '#6C6C6C',
+        900: '#3F3F3F',
+      },
+      'dark-gray': {
+        700: '#838A8F',
+        800: '#656D73',
+        900: '#374147',
       },
       white: '#ffffff',
+      black: '#303841',
     },
     fontSize: {
       xs: '0.75rem',
@@ -32,5 +47,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require('tailwindcss-textshadow')],
 };
