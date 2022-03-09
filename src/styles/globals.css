@@ -5,3 +5,15 @@
 .title-shadow-effect {
   @apply text-2xl font-bold text-dark-gray-900 text-shadow-title;
 }
+
+.btn-sm {
+  @apply px-1 text-sm text-yellow-700 rounded-full border-2 border-yellow-700;
+}
+
+.btn-base {
+  @apply px-1.5 text-base text-yellow-700 rounded-full border-2 border-yellow-700;
+}
+
+.btn-lg {
+  @apply px-2 text-lg text-yellow-700 rounded-full border-2 border-yellow-700;
+}

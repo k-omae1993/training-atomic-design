@@ -12,20 +12,15 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const Small = Template.bind({});
 Small.args = {
-  children: <button className='btn-sm'>Small</button>,
+  children: <button className='btn-sm'>→</button>,
 };
 
 export const Base = Template.bind({});
 Base.args = {
-  children: <button className='btn-base'>Base</button>,
+  children: <button className='btn-base'>→</button>,
 };
 
 export const Large = Template.bind({});
 Large.args = {
-  children: <button className='btn-lg'>Large</button>,
-};
-
-export const Gradation = Template.bind({});
-Gradation.args = {
-  children: <button className='text-white btn-green-gradation'>Base</button>,
+  children: <button className='btn-lg'>→</button>,
 };

@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "jest",
     "test:dev": "jest --watch",
-    "sb": "start-storybook -p 6006",
+    "sb": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
   "prettier": {
