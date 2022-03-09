@@ -15,9 +15,9 @@ Bold.args = {
   children: <span className='text-base font-bold'>text-base</span>,
 };
 
-export const Green = Template.bind({});
-Green.args = {
-  children: <span className='font-bold text-green-800'>text-green-800</span>,
+export const Yellow = Template.bind({});
+Yellow.args = {
+  children: <span className=' text-yellow-800'>text-yellow-800</span>,
 };
 
 export const Gray = Template.bind({});
@@ -53,4 +53,9 @@ ExtraLarge.args = {
 export const ExtraLarge2 = Template.bind({});
 ExtraLarge2.args = {
   children: <span className='text-2xl'>text-2xl</span>,
+};
+
+export const ShadowEffect = Template.bind({});
+ShadowEffect.args = {
+  children: <span className='title-shadow-effect'>ShadowEffect</span>,
 };
